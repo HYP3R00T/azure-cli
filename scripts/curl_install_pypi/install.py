@@ -29,7 +29,7 @@ AZ_DISPATCH_TEMPLATE = """#!/usr/bin/env bash
 {install_dir}/bin/python -m azure.cli "$@"
 """
 
-VIRTUALENV_VERSION = '16.7.11'
+VIRTUALENV_VERSION = '20.30.0'
 VIRTUALENV_ARCHIVE = 'virtualenv-'+VIRTUALENV_VERSION+'.tar.gz'
 VIRTUALENV_DOWNLOAD_URL = 'https://pypi.python.org/packages/source/v/virtualenv/'+VIRTUALENV_ARCHIVE
 VIRTUALENV_ARCHIVE_SHA256 = '0f73ef551d889bf4b3241f1819aaf5f5c7e27259c1537255b1f63207552919b1'
